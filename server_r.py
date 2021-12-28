@@ -2,8 +2,8 @@ import socket
 import time
 from typing import final
 
-HOST = '10.0.0.78'  # Standard loopback interface address (localhost)
-PORT = 4445       # Port to listen on (non-privileged ports are > 1023)
+HOST = '10.0.0.78' 
+PORT = 4445      
 
 
 communication_array=[]
