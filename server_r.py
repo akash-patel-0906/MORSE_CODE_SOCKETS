@@ -65,8 +65,6 @@ def listner():
             conn, addr = s.accept() # waits for connection (blocks/hangs)
             current_time = round(time.time() * 1000)
         
-            data = conn.recv(1024)
-
             with conn:
                 print('Connected by', addr)
                 print('time', current_time)
