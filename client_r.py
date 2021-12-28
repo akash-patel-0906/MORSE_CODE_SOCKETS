@@ -5,8 +5,8 @@ import time
 
 
 
-HOST = '10.0.0.78'  # The server's hostname or IP address
-PORT = 4445     # The port used by the server
+HOST = '10.0.0.78'  
+PORT = 4445   
 
 # dot = 50 ms
 # dash = 100ms
